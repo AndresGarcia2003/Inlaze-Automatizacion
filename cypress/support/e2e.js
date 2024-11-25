@@ -21,13 +21,13 @@ import './commands'
 //Se importa el xpath y el archivo basepage
 import'cypress-xpath'
 import PageRegister from '../e2e/Pages/PageRegister.js'
-//import PageLogin from '../e2e/Pages/PageLogin.js'
+
 
 //Se ingresa a la URL de la pagina 
 before(() => {
     cy.log("¡¡¡ Se inicia la navegacion en la pantalla de Registro !!!")
     PageRegister.navigate("https://test-qa.inlaze.com/auth/sign-in");
-    //PageLogin.navigate("https://test-qa.inlaze.com/auth/sign-in");
+   
 })
 
 

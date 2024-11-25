@@ -16,9 +16,11 @@ class PageLogout extends BasePage {
     }
     //
     ClickDesplegar(){
+        this.wait(2)
         this.clickElementByXpath(this.xpathDesplegarLink)
     }
     ClickLogout(){
+        this.wait(2)
         this.clickElementByXpath(this.xpathLogoutLink)
     }
 
