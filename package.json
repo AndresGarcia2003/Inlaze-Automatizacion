@@ -1,0 +1,20 @@
+{
+  "name": "login-inlaze",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:run:all:head": "cypress run --headed --browser chrome",
+    "cy:report:open": "npx open-cli ./cypress/reports/mochawesome.html"
+  },
+  "author": "andres",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}

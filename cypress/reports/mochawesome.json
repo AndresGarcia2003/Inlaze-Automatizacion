@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-25T02:08:51.828Z",
+    "end": "2024-11-25T02:09:01.740Z",
+    "duration": 9912,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9cb3b3b7-6de4-4498-9375-66546338a6ae",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\Logout.cy.js",
+      "file": "cypress\\e2e\\Tests\\Logout.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4053a965-8180-46f6-849b-65eb030bc91a",
+          "title": "Test Login User",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "El usuario se Logea  correctamente el usuario",
+              "fullTitle": "Test Login User El usuario se Logea  correctamente el usuario",
+              "timedOut": null,
+              "duration": 6291,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"Se inicia el Logeo....\");\n_PageLogout.default.loginFormulario(\"lopezsermientorafa@gmail.com\", \"Alemania23.\");\n_PageLogout.default.clickLoginUser();\n_PageLogout.default.ClickDesplegar();\n_PageLogout.default.ClickLogout();",
+              "err": {},
+              "uuid": "7396cf6b-ae57-42e5-9935-51d30d9fed72",
+              "parentUUID": "4053a965-8180-46f6-849b-65eb030bc91a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7396cf6b-ae57-42e5-9935-51d30d9fed72"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6291,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
